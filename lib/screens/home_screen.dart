@@ -20,11 +20,13 @@ class _HomeScreenState extends State<HomeScreen> {
           color: Colors.white,
           onPressed: () {},
         ),
+        centerTitle: true,
         title: Text(
           'Chats',
           style: TextStyle(
-            fontSize: 28,
-            fontWeight: FontWeight.bold,
+            fontSize: 18,
+            fontWeight: FontWeight.normal,
+            letterSpacing: 1.2,
           ),
         ),
         elevation: 0,

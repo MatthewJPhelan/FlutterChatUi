@@ -103,3 +103,38 @@ List<Message> chats = [
     unread: true,
   ),
 ];
+
+// Example messages
+List<Message> messages = [
+  Message(
+      sender: dave,
+      time: '4:30 PM',
+      text: 'hey mate!',
+      isLiked: false,
+      unread: false),
+  Message(
+      sender: currentUser,
+      time: '4:31 PM',
+      text: 'hey dude! how are you doing?',
+      isLiked: false,
+      unread: false),
+  Message(
+      sender: dave,
+      time: '4:32 PM',
+      text: 'really good! wbu??',
+      isLiked: true,
+      unread: false),
+  Message(
+      sender: currentUser,
+      time: '4:33 PM',
+      text: 'Mate sick! Went to the pub yesterday',
+      isLiked: true,
+      unread: false),
+  Message(
+      sender: dave,
+      time: '4:34 PM',
+      text:
+          'I went the other day too, table service is a game changer isn\'t it?!',
+      isLiked: false,
+      unread: true),
+];
